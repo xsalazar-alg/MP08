@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Trevino';
+    src: url('Trevino.eot');
+    src: url('Trevino.eot?#iefix') format('embedded-opentype'),
+        url('Trevino.woff2') format('woff2'),
+        url('Trevino.woff') format('woff'),
+        url('Trevino.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

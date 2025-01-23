@@ -1,0 +1,70 @@
+:root{
+    --color1:rgb(27, 157, 109);
+    --color2:rgb(255, 213, 150);
+    --color3:rgb(8, 0, 255);
+    --color4:rgb(255, 38, 92);
+
+}
+
+@font-face {
+    font-family: 'Trevino';
+    src: url('../fonts/transfonter.org-20250117-155807/Trevino.eot');
+    src: url('../fonts/transfonter.org-20250117-155807/Trevino.ttf') format('embedded-opentype'),
+        url('../fonts/transfonter.org-20250117-155807/Trevino.woff') format('woff2'),
+        url('../fonts/transfonter.org-20250117-155807/Trevino.woff') format('woff'),
+        url('../fonts/transfonter.org-20250117-155807/Trevino.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Trevino';
+    font-weight:900;
+    font-style: normal;
+    font-display: swap;
+}
+
+p{
+    padding: 1rem;
+    background-color: cyan;
+    cursor:context-menu;
+}
+
+@media screen and (max-width:480px){
+    body{
+        background: var(--color3);
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width:480px) and (max-width:1279px){
+    body{
+        background: var(--color2);
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width:1280px){
+    body{
+        background: var(--color1);
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    p{
+        columns:2;
+    }
+}
+

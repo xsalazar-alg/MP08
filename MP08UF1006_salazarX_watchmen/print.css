@@ -1,0 +1,69 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: white;
+
+}
+
+img{
+    width: 10%;
+    height: 90mm;
+    width: 57mm;
+}
+
+
+img:nth-child(1){
+    position: absolute;
+    left:18mm;
+    top:8mm;
+}
+
+img:nth-child(2){
+    position: absolute;
+    left: 77mm;
+    top:8mm;
+}
+
+img:nth-child(3){
+    position: absolute;
+    left: 136mm;
+    top:8mm;
+}
+
+img:nth-child(4){
+    position: absolute;
+    left:18mm;
+    top:102mm;
+}
+
+img:nth-child(5){
+    position: absolute;
+    left: 77mm;
+    top:102mm;
+}
+
+img:nth-child(6){
+    position: absolute;
+    left:136mm;
+    top:102mm;
+}
+
+img:nth-child(7){
+    position: absolute;
+    left:18mm;
+    top:194mm;
+}
+
+img:nth-child(8){
+    position: absolute;
+    left: 77mm;
+    top:194mm;
+}
+
+
+img:nth-child(9){
+    position: absolute;
+    left: 136mm;
+    top:194mm;
+}

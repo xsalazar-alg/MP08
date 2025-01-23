@@ -1,0 +1,53 @@
+header{
+    height: 166px;
+    background-color: rgb(49, 15, 142);
+}
+
+nav{
+    height: 180px;
+    background-color: rgb(91, 26, 56);
+    
+}
+
+.circulos{
+    width: 1678px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+.circulitos{
+    background-color: azure;
+    height: 98px;
+    width: 98px;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+
+}
+
+article{
+    height: 2053px;
+    background-color: rgb(201, 201, 201);
+}
+
+.contenidor{
+    
+    width:1716px;
+    background-color: rgb(201, 221, 221);
+    margin: 0 auto;
+}
+
+
+.entrada{
+    float: left;
+    width: 536px;
+    height: 620px;
+    background-color: rgb(255, 255, 255);
+    margin: 18px;
+}
+
+
+
+
+

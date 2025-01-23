@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #222;
+}
+
+.contenidor{
+    width: auto;
+    height: auto;
+    font-family: Helvetica;
+}
+
+.contenidor .header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    position: fixed;
+}
+
+.header img{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: fixed;
+}
+
+.botons{
+    margin-left: 90px;
+    background-color: #814141;
+    line-height: 40px;
+}
+
+.xarxes{
+    text-align: right;
+}
+
+.contenidor .header ul{
+    width: auto;
+    margin: 5px;
+    float: left;
+    
+}
+
+li{
+    display: inline;
+    padding: 0;
+    color:#fff;
+}
+
+a{
+    text-decoration: none;
+    color:#CCC;
+}
+
+a:active{
+    color: #ccc;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+.pelis{
+    width: 100%;
+    background-color: #222;
+    float: left;
+    margin-top: 60px;
+}
+
+.p2 img{
+    -webkit-filter: grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.p2{
+    margin-top: 10px;
+}
+
+.p3{
+    margin-top: 10px;
+}
+
+.p4{
+    margin-top: 10px;
+}
+
+.p5{
+    margin-top: 10px;
+}
+
+.p6{
+    margin-top: 10px;
+}
+
+h2{
+    color:white;
+}
+
+.pelis .docus .documentals{
+    float: left;
+    
+}
+
+.documentals{
+    width: 175px;
+    margin: 20px;
+    color: #ccc;
+
+}
+
+.documentals img{
+    width: 175px;
+    border-radius:5px;
+    
+}
