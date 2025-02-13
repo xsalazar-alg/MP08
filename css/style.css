@@ -34,7 +34,7 @@ nav ul{
 
 nav ul a{
     text-decoration: none;
-    width: 97px;
+    width: 6.06rem;
     color:#076653;
     float: left;
     margin:0px 27px;
@@ -47,6 +47,8 @@ nav ul li:hover{
     text-shadow: 0px 0px 5px #076653;
     font-weight: bold;
 }
+
+
 
 .welcome{
     width: 100%;
@@ -98,7 +100,7 @@ nav ul li:hover{
 .contenido{
     position:relative;
     width: 100%;
-    height: 510px;
+    height: 550px;
     background-color: #0c342c;
     text-align: center;
 }
@@ -106,10 +108,13 @@ nav ul li:hover{
 .contenido h1{
     font-size: 3rem;
     color: #e2fbce;
-    line-height: 90px;
-    letter-spacing: 3px;
-    font-weight: 600;
-    font-family: "Prompt", serif;
+    line-height: 120px;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "SOFT" 50,
+    "WONK" 4;
 }
 
 .contenido li{
@@ -117,9 +122,11 @@ nav ul li:hover{
     text-decoration: none;
 }
 
+
 .contenido a{
+    text-align: center;
     height: 120px;
-    width: 32%;
+    width: 30%;
     text-decoration: none;
     list-style: none;
     background-color: #076653;
@@ -144,14 +151,37 @@ nav ul li:hover{
 
 
 .contacte{
-    height: 280px;
+    height: 240px;
     width: 100%;
     position:relative;
     bottom: 0;
-    background-color: #076653;
-    background: linear-gradient(180deg, #076653 47%, #0c342c 100%);
+    text-align: center;
+    background: linear-gradient(180deg, #076653 47%, #217e6b 100%);
     color:white;
+    margin: 0 auto;
 }
+
+.contacte p{
+    line-height: 120px;
+}
+
+.contacte h4{
+    line-height: 10px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    word-spacing: 5px;
+    text-align: just;
+}
+
+
+.contacte img{
+    height: 40px;
+    width: 40px;
+    top:-20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 
 @-webkit-keyframes fadein {
@@ -173,21 +203,63 @@ nav ul li:hover{
 
 
 @media screen and (max-width:480px){
-    body{
-        background: var(--color3);
+  
+    .welcome h2{
+        top: 230px;
+        font-size: 6rem;
     }
 
-    .welcome h2{
-        font-size: 4rem;
+    .welcome p{
+        font-size: 1.8rem;
+        line-height: 5.3rem;
+        top: 190px;
     }
+
+    .welcome p:hover{
+        font-size: 2rem;
+        line-height: 5.8rem;
+    }
+
+    nav{
+        height:45px;
+    }
+
+    .welcome{
+        margin-top: 45px;
+        height:600px;
+    }
+
+    nav ul a{
+        font-size: 0.8rem;
+        width: 4rem;
+        margin:0px 15px;
+        text-align: center;
+        line-height: 0.3rem;
+    }
+
+    .contenido{
+        height:1320px;
+    }
+
+    .contenido li{
+        font-size:16px;
+        text-align: center;
+        left: 3px;
+    }
+
+    .contenido a{
+        width: 80%;
+    }
+
+    .contenido h1 {
+        font-size: 2.4rem;
+        color: #e2fbce;
+        line-height: 71px;
 }
 
 
 @media screen and (min-width:480px) and (max-width:1279px){
-    body{
-        background: var(--color2);
-    }
-
+    
     .welcome h2{
         font-size: 8rem;
     }
@@ -196,15 +268,28 @@ nav ul li:hover{
         font-size: 2.2rem;
         line-height: 5rem;
     }
-}
 
-}
-
-@media screen and (min-width:1280px){
-    body{
-        background: var(--color1);
+    .welcome p:hover{
+        font-size: 2.5rem;
+        line-height: 5rem;
     }
 
+    nav ul a{
+        width: 6.1rem;
+        margin:0px 13px;
+        text-align: center;
+    }
+
+    .contenido{
+        height:790px;
+    }
+
+    .contenido a{
+        width:30%;
+    }
+}
+@media screen and (min-width:1280px){
+    
     .welcome h2{
         font-size: 10rem;
     }
@@ -212,6 +297,8 @@ nav ul li:hover{
     .welcome p{
         font-size: 2.6rem;
     }
+
 }
 
+}
 
